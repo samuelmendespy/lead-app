@@ -1,0 +1,23 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    env_file: ".env"
+    
+  api-cadastro:
+    build: ./api-cadastro
+    container_name: api_cadastro
+    ports:
+      - "3000:3000"
+    env_file: ".env"
+    depends_on:
+      - rabbitmq
+    
+  registro-lead:
+    build: ./registro-lead
+    container_name: registro_lead
+    env_file: ".env"
+    depends_on:
+      - rabbitmq
