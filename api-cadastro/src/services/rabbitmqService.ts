@@ -1,19 +1,17 @@
-import amqp from 'amqplib';
+import * as amqp from 'amqplib';
+import { Channel, ChannelModel } from 'amqplib';
 import { UserPayload } from '../types/user.d';
 
+let connection : ChannelModel;
+let channel : Channel;
 
-const RABBITMQ_URL = process.env.RABBITMQ_URL || 'amqp://localhost'; // URL do RabbitMQ
-
-let connection = await amqp.connect('');
-let channel = await connection.createChannel();
-
+const RABBITMQ_URL = process.env.RABBITMQ_URL || 'amqp://localhost';
 
 export async function connectRabbitMQ() {
   try {
     connection = await amqp.connect(RABBITMQ_URL);
     channel = await connection.createChannel();
-    
-    console.error('Conectado ao RabbitMQ com sucesso!');
+    console.log('Conexão producer com RabbitMQ!');
 
     await channel.assertQueue('user_registration_queue', { durable: true });
   } catch (error) {

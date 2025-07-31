@@ -3,23 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/nodemailer": "^6.4.17",
     "amqplib": "^0.10.5",
+    "dotenv": "^17.2.1",
+    "joi": "^17.13.3",
     "mongoose": "^8.17.0",
     "nodemailer": "^7.0.5"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.6",
-    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/joi": "^17.2.2",
     "@types/mongoose": "^5.11.96",
     "@types/node": "^24.1.0",
+    "@types/nodemailer": "^6.4.17",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   }
