@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1754000957733" clover="3.2.0">
+  <project timestamp="1754000957734" name="All files">
+    <metrics statements="45" coveredstatements="23" conditionals="10" coveredconditionals="4" methods="4" coveredmethods="1" elements="59" coveredelements="28" complexity="0" loc="45" ncloc="45" packages="4" files="4" classes="4"/>
+    <package name="controllers">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="userController.ts" path="/home/real/Documents/GitHub/app/api-cadastro/src/controllers/userController.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="63" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="routes.ts" path="/home/real/Documents/GitHub/app/api-cadastro/src/routes/routes.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="27" coveredstatements="5" conditionals="8" coveredconditionals="2" methods="3" coveredmethods="0"/>
+      <file name="rabbitmqService.ts" path="/home/real/Documents/GitHub/app/api-cadastro/src/services/rabbitmqService.ts">
+        <metrics statements="27" coveredstatements="5" conditionals="8" coveredconditionals="2" methods="3" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="user.d.ts" path="/home/real/Documents/GitHub/app/api-cadastro/src/types/user.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
