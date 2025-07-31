@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { connectMongoDB } from './services/mongoService';
 import { startRabbitMQConsumer } from './services/rabbitmqConsumerService';
 import { launchEmailService } from './services/launchEmailService';
